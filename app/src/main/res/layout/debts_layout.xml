@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_debtto"
+        android:text="ToDebt"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_debtvalue"
+        android:text="Value"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_debtdate"
+        android:text="Date"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_debtdesc"
+        android:text="Desc"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
